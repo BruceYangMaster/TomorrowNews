@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bruce/tomorrownews/util/Logs.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/activityicon_leftdrawer_night.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/big_defaulthead_head.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/comment_write_icon.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/dayicon_leftdrawer_pressed_night.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/downloadicon_leftdrawer_normal_night.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/dynamicicon_leftdrawer.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/favoriteicon_leftdrawer.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/feedbackicon_leftdrawer.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/feedbackicon_leftdrawer.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_widget_refresh.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/pgc_discover.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/searchicon_titlebar_location_pressed.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/sellicon_leftdrawer.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/settingicon_leftdrawer_pressed_night.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/topicicon_leftdrawer.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/white_search_titlebar.png" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

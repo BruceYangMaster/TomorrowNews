@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">明日头条</string>
+    <string name="launch_bottom_text">你关心的才是头条</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="more_login_style">更多登录方式</string>
+    <string name="slid_menu_t1">我要爆料</string>
+    <string name="slid_menu_t2">好友动态</string>
+    <string name="slid_menu_t3">我的话题</string>
+    <string name="slid_menu_t4">收藏</string>
+    <string name="slid_menu_t5">活动</string>
+    <string name="slid_menu_t6">商城</string>
+    <string name="slid_menu_t7">反馈</string>
+    <string name="slid_menu_center_1">离线下载</string>
+    <string name="slid_menu_center_2">日间模式</string>
+    <string name="slid_menu_center_3">设置</string>
+</resources>

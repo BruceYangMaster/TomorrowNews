@@ -1,0 +1,128 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/slideMenuColor"
+    tools:context="com.bruce.tomorrownews.ui.fragment.MenuFragment">
+    <!--侧滑菜单的布局，里面有三个部分，顶部、中部、底部。-->
+    <!-- 顶部-->
+    <RelativeLayout
+        android:id="@+id/sliding_menu_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/slideMenuBgColor">
+
+        <LinearLayout
+            android:id="@+id/sliding_menu_title_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/slideMenuTitleTop"
+                android:src="@drawable/account_icon_mobile" />
+
+            <ImageView
+                style="@style/slideMenuTitleTop"
+                android:src="@drawable/account_icon_qzone" />
+
+            <ImageView
+                style="@style/slideMenuTitleTop"
+                android:src="@drawable/account_icon_weibo" />
+
+            <ImageView
+                style="@style/slideMenuTitleTop"
+                android:src="@drawable/account_icon_weixin" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/sliding_menu_title_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sliding_menu_title_1"
+            android:layout_margin="5dp"
+            android:drawableRight="@drawable/arrow_morelogin_profile"
+            android:padding="5dp"
+            android:text="@string/more_login_style"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+    <!--底部-->
+    <LinearLayout
+        android:id="@+id/sliding_menu_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/slideMenuTitleBottom"
+            android:drawableTop="@drawable/downloadicon_leftdrawer_normal_night"
+            android:text="@string/slid_menu_center_1" />
+
+        <TextView
+            style="@style/slideMenuTitleBottom"
+            android:drawableTop="@drawable/dayicon_leftdrawer_pressed_night"
+            android:text="@string/slid_menu_center_2" />
+
+        <TextView
+            style="@style/slideMenuTitleBottom"
+            android:drawableTop="@drawable/settingicon_leftdrawer_pressed_night"
+
+            android:text="@string/slid_menu_center_3" />
+    </LinearLayout>
+    <!-- 中部-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/sliding_menu_bottom"
+        android:layout_below="@id/sliding_menu_top">
+
+        <LinearLayout
+            android:id="@+id/sliding_menu_center"
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/slideMenuTitleCenter"
+                android:drawableLeft="@drawable/comment_write_icon"
+                android:text="@string/slid_menu_t1" />
+
+            <TextView
+                style="@style/slideMenuTitleCenter"
+                android:drawableLeft="@drawable/dynamicicon_leftdrawer"
+                android:text="@string/slid_menu_t2" />
+
+            <TextView
+                style="@style/slideMenuTitleCenter"
+                android:drawableLeft="@drawable/topicicon_leftdrawer"
+                android:text="@string/slid_menu_t3" />
+
+            <TextView
+                style="@style/slideMenuTitleCenter"
+                android:drawableLeft="@drawable/favoriteicon_leftdrawer"
+                android:text="@string/slid_menu_t4" />
+
+            <TextView
+                style="@style/slideMenuTitleCenter"
+
+                android:drawableLeft="@drawable/activityicon_leftdrawer_night"
+                android:text="@string/slid_menu_t5" />
+
+            <TextView
+                style="@style/slideMenuTitleCenter"
+                android:drawableLeft="@drawable/sellicon_leftdrawer"
+                android:text="@string/slid_menu_t6" />
+
+            <TextView
+                style="@style/slideMenuTitleCenter"
+                android:drawableLeft="@drawable/feedbackicon_leftdrawer"
+                android:text="@string/slid_menu_t7" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
